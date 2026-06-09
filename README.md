@@ -1,16 +1,29 @@
-# React + Vite
+# Hospital Management System (HMS) - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The modern, responsive user interface for the Hospital Management System, engineered using React and Vite. It provides an intuitive dashboard experience for administrators, doctors, and patients.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* **Interactive Dashboards:** Tailored user interfaces for Patients, Doctors, and Admin staff.
+* **Appointment Scheduling:** Real-time booking, status tracking, and calendar views.
+* **Patient Records:** Secure front-end views for medical histories, prescriptions, and lab reports.
+* **Optimized Performance:** Built on Vite for lightning-fast Hot Module Replacement (HMR) and optimized production builds.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+hms_frontend/
+├── public/              # Static assets (images, icons, logos)
+├── src/
+│   ├── assets/          # Global styles, fonts, and images
+│   ├── components/      # Reusable UI elements (Buttons, Inputs, Modals)
+│   ├── pages/           # Page layouts (Dashboard, Login, Appointments)
+│   ├── App.jsx          # Root component and client-side routing
+│   └── main.jsx         # Application entry point
+├── index.html           # Main HTML document
+├── vite.config.js       # Vite build configurations
+└── package.json         # Project dependencies and script configurations
